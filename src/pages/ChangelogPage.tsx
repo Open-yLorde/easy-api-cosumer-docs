@@ -9,7 +9,7 @@ import { GITHUB_URL } from "@/lib/constants";
 export function ChangelogPage() {
   return (
     <DocArticle
-      title="Versão 1.3.0"
+      title="Versão 1.3"
       description="Cache em sessionStorage, credentials same-origin por padrão e tipagem estrita em IRequestOptions. Este guia cobre a migração a partir da 1.2.x."
       toc={[
         { id: "pilares", title: "O que mudou" },
@@ -19,7 +19,7 @@ export function ChangelogPage() {
     >
       <HeadingAnchor id="pilares">O que mudou</HeadingAnchor>
       <p>
-        A <InlineCode>1.3.0</InlineCode> tem dois eixos: cache opcional no{" "}
+        A <InlineCode>1.3</InlineCode> tem dois eixos: cache opcional no{" "}
         <InlineCode>sessionStorage</InlineCode> e um patch de segurança (cookies
         cross-origin, Prototype Pollution, timeout no IP, retry só em métodos
         idempotentes e tipos sem <InlineCode>any</InlineCode>).

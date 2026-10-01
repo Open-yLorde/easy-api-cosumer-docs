@@ -61,7 +61,7 @@ export const navigation: NavSection[] = [
   {
     label: "Projeto",
     items: [
-      { kind: "link", title: "Versão 1.3.0", href: "/changelog" },
+      { kind: "link", title: "Versão 1.3", href: "/changelog" },
       { kind: "link", title: "Licença e créditos", href: "/credits" },
     ],
   },
@@ -101,7 +101,7 @@ export const pageTitles: Record<string, string> = {
   "/api-reference": "API Reference",
   "/errors": "Erros",
   "/examples": "Exemplos",
-  "/changelog": "Versão 1.3.0",
+  "/changelog": "Versão 1.3",
   "/credits": "Licença e créditos",
 };
 
